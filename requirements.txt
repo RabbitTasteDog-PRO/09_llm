@@ -17,3 +17,6 @@ Pillow
 # HTTP 요청 및 진행률 표시
 requests
 tqdm
+
+# 구글 드라이브 다운
+gdown
