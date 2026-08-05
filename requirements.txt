@@ -18,5 +18,9 @@ Pillow
 requests
 tqdm
 
+# OpenAI API 및 환경 변수 로딩
+openai
+python-dotenv
+
 # 구글 드라이브 다운
 gdown
