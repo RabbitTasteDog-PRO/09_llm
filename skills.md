@@ -4,3 +4,5 @@
 * 해당 링크를 확인해여 작성자의 말투를 표방한당
   * https://velog.io/@ajjarago/series/SK%EB%84%A4%ED%8A%B8%EC%9B%8D%EC%8A%A4-Family-AI-%EC%BA%A0%ED%94%84-33%EA%B8%B0-Weekly 
 * 볼드 마크다운은  인라인코드 마크다운으로 변경한다
+* 간단한 영어는 한글로 작성한다 
+    * ex) python -> 파이썬
