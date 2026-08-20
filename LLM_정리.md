@@ -153,3 +153,34 @@ flowchart TB
 3. RRF (순위 역수 결합)
 4. Metadata Filtering
 5. Self-query Retriever: 자연어 입력 -> LLM이 필터링할 메타데이터 추출
+
+---
+## 간단 전리
+LM: 언어 모델
+LLM: 거대 언어 모델
+ - 수억, 수조개의 파라미터를 가진 언어 모델
+ - 굉장히 많은 양의 데이터를 학습함
+
+Tool: LLM이 호출해서 사용할 도구(함수)
+Tool Calling: LLM이 도구를 호출하는 것
+
+Agent: LLM이 사용자 요청을 처리하기 위하여
+         알아서 Tool 사용 여부를 판단하고, 
+         Tool 결과를 이용해서 답변을 해주는 AI
+
+LangChain: Agent를 구성하고, 실행 가능하게 만드는 프레임워크
+- Agent의 단순한 흐름을 직접 구성 가능
+
+LangGraph: LangChain 제공 컴포넌트를 이용해서
+              Agent의 동작을 세밀하게 제어(상태, 순서, 분기, 반복)
+
+
+Retrieval 
+- 외부 문서(PDF,CSV...), VectorDB에서 
+  입력된 query와 유사도가 높은 Document를 찾아서 반환하는 과정
+
+Retriever
+- Retrieval 과정을 수행하는 객체
+
+RAG(Retrieval Argumented Generation, 검색 증강 생성)
+- Retrieval의 결과를 LLM에게 전달에서 응답을 생성
