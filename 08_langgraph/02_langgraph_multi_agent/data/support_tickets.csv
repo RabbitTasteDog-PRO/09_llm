@@ -1,0 +1,16 @@
+ticket_id,received_date,category,priority,status,resolution_hours,satisfaction,summary
+T001,2026-08-10,결제,high,resolved,6,5,중복 결제 후 즉시 취소 요청
+T002,2026-08-10,로그인,medium,resolved,8,4,비밀번호 재설정 메일 도착 지연
+T003,2026-08-11,배송,medium,resolved,30,3,배송 조회 상태가 이틀 동안 갱신되지 않음
+T004,2026-08-11,결제,high,open,,,모바일 결제 단계에서 반복 오류
+T005,2026-08-12,로그인,low,resolved,10,4,소셜 로그인 후 첫 화면으로 반복 이동
+T006,2026-08-12,결제,medium,resolved,28,3,할인 쿠폰이 결제 금액에 반영되지 않음
+T007,2026-08-13,배송,high,open,,,출고 완료 후 배송 위치 확인 불가
+T008,2026-08-13,로그인,medium,resolved,6,5,휴면 해제 후 로그인이 차단됨
+T009,2026-08-14,환불,high,resolved,16,4,부분 환불 금액 확인 요청
+T010,2026-08-14,결제,low,resolved,12,5,현금영수증 발급 내역 누락
+T011,2026-08-15,배송,medium,open,,,배송지 변경 요청이 주문에 반영되지 않음
+T012,2026-08-15,환불,medium,resolved,24,4,환불 완료 알림이 늦게 도착함
+T013,2026-08-16,결제,high,resolved,32,2,결제 취소 후 승인 금액이 남아 있음
+T014,2026-08-16,결제,medium,resolved,3,5,간편결제 등록 카드 변경 요청
+T015,2026-08-16,로그인,low,resolved,5,4,이중 인증 코드 재발송 요청
